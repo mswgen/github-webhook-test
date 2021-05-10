@@ -1,0 +1,20 @@
+{
+  "name": "github-webhook",
+  "version": "1.0.0",
+  "description": "github webhook test",
+  "main": "index.js",
+  "repository": "none",
+  "author": "mswgen",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "eslint --fix . && tsc && node compiled/index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^15.0.2",
+    "@typescript-eslint/eslint-plugin": "^4.22.1",
+    "@typescript-eslint/parser": "^4.22.1",
+    "eslint": "^7.26.0",
+    "typescript": "^4.2.4"
+  }
+}
