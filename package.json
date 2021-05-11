@@ -6,6 +6,7 @@
   "repository": "none",
   "author": "mswgen",
   "license": "MIT",
+  "type": "module",
   "private": false,
   "scripts": {
     "start": "eslint --fix . && tsc && node compiled/index.js"
